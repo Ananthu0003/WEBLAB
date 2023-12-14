@@ -1,0 +1,60 @@
+<html>
+<head>
+  <script type="text/javascript".
+    var c=0;
+    var score=0; 
+    function fun()
+     {
+         if(document.getElementById('javascript').checked)
+ 	{
+	   score++;
+	}
+         if(document.getElementById('russia').checked)
+ 	{
+	   score++;
+	}
+         if(document.getElementById('shanghai').checked)
+ 	{
+	   score++;
+	}
+         if(document.getElementById('corona virus').checked)
+ 	{
+	   score++;
+	}
+         document.write("Your Score is:");
+         document.write("score");
+     }
+</script>
+<link rel="stylesheet" href="quiz.css">
+</heade>
+<body>
+<form name="quiz">
+<h1>Quiz</h1>
+<div>
+   <p>1.What is the best programming Language to learn in 2021?</p>
+   <p><input type=radio" id="html" name="q1" value="A.html">A.HTML</p>
+   <p><input type=radio" id="python" name="q1" value="python">B.PYTHON</p>  
+   <p><input type=radio" id="JS" name="q1" value="JS">C.JavaScript</p>  
+</div>
+<div>
+   <p>2.What is the biggest country in the world?</p>
+   <p><input type=radio" id="russia" name="q2" value="A.russia">A.RUSSIA</p>
+   <p><input type=radio" id="america" name="q2" value="america">B.America</p>  
+   <p><input type=radio" id="china" name="q2" value="china">C.CHINA</p>  
+</div>
+<div>
+   <p>3.What is the capitel of china?</p>
+   <p><input type=radio" id="guz" name="q3" value="guz">A.GUNZHUOU</p>
+   <p><input type=radio" id="anj" name="q3" value="nanj">B.NANJINI</p>  
+   <p><input type=radio" id="Shan" name="q3" value="shan">C.SHANGHAI</p>  
+</div>
+<div>
+   <p>4.What is the Biggest pronblem in the now?</p>
+   <p><input type=radio" id="FP" name="q4" value="FP">A.Financial Problem</p>
+   <p><input type=radio" id="CV" name="q4" value="CV">B.Corona Virus</p>  
+   <p><input type=radio" id="EP" name="q4" value="EP">C.Economic Problem</p>  
+</div>
+<button onclick="fun()">SUBMIT</button>
+</form>
+</body>
+</html>

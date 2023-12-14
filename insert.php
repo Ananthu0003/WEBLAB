@@ -22,10 +22,10 @@ else
 ?>
 
 <form action="" method="POST">
-  <label>First name:</label><br><input type="text" id="fname" name="fname"><br>
-  <label >Last name:</label><br><input type="text" id="lname" name="lname" ><br>
-  <label >user name:</label><br><input type="text" id="uname" name="uname" ><br>
-  <label >Password:</label><br><input type="password" id="pass" name="pass" ><br><br>
+  <label>First name:</label><br><input type="text"  name="fname"><br>
+  <label >Last name:</label><br><input type="text"  name="lname" ><br>
+  <label >user name:</label><br><input type="text"  name="uname" ><br>
+  <label >Password:</label><br><input type="password" name="pass" ><br><br>
   <input type="submit" value="Submit" name="sub">
 <?php
 }
